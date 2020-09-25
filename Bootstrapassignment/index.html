@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Bootstrap Exercise</title>
+  </head>
+  <body>
+      <div class="container">
+        Search...
+        Getting started
+        Layout
+        Content
+        Components
+        Alerts
+        Badge
+        Breadcrumb
+        Buttons
+        Button group
+        Card
+        Carousel
+        Collapse
+        Dropdowns
+        Forms
+        Input group
+        Jumbotron
+        List group
+        Media object
+        Modal
+        Navs
+        Navbar
+        Pagination
+        Popovers
+        Progress
+        Scrollspy
+        Spinners
+        Toasts
+        Tooltips
+        Utilities
+        Extend
+        Migration
+        About
+        Navbar
+        Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.
+        
+        ads via CarbonManage, Deploy & Measure Features at Scale with Rollout. Free 14 Day Trial.
+        ads via Carbon
+        How it works
+        Here’s what you need to know before getting started with the navbar:
+        
+        Navbars require a wrapping .navbar with .navbar-expand{-sm|-md|-lg|-xl} for responsive collapsing and color scheme classes.
+        Navbars and their contents are fluid by default. Use optional containers to limit their horizontal width.
+        Use our spacing and flex utility classes for controlling spacing and alignment within navbars.
+        Navbars are responsive by default, but you can easily modify them to change that. Responsive behavior depends on our Collapse JavaScript plugin.
+        Navbars are hidden by default when printing. Force them to be printed by adding .d-print to the .navbar. See the display utility class.
+        Ensure accessibility by using a <nav> element or, if using a more generic element such as a <div>, add a role="navigation" to every navbar to explicitly identify it as a landmark region for users of assistive technologies.
+        The animation effect of this component is dependent on the prefers-reduced-motion media query. See the reduced motion section of our accessibility documentation.
+        
+        Read on for an example and list of supported sub-components.
+        
+        Supported content
+        Navbars come with built-in support for a handful of sub-components. Choose from the following as needed:
+        
+        .navbar-brand for your company, product, or project name.
+        .navbar-nav for a full-height and lightweight navigation (including support for dropdowns).
+        .navbar-toggler for use with our collapse plugin and other navigation toggling behaviors.
+        .form-inline for any form controls and actions.
+        .navbar-text for adding vertically centered strings of text.
+        .collapse.navbar-collapse for grouping and hiding navbar contents by a parent breakpoint.
+        Here’s an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the lg (large) breakpoint.
+        
+        Navbar
+        Home(current)
+        Link
+        Dropdown 
+        Disabled
+        Search
+        Copy
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <h1>Example heading <span class="badge badge-secondary">Six Unread Messages</span></h1>
+                </div>
+              </li>
+    <h1 class="display-1 bg-primary">Hello, world!</h1>
+    <h2 class="display-1 bg-primary bg-muted danger">Muted Danger</h2> 
+    <p class="text-nowrap">TLorem ipsum dolor sit amet consectetur adipisicing elit. Amet eum ab reprehenderit dolores, iste aliquam? Perferendis dolore, repellat vel omnis in veritatis, a distinctio eveniet dignissimos optio voluptatem adipisci eum.</p>
+    <div class="container">
+    <button class="btn btn-secondary btn-lg">Secondary</button>
+    <button class="btn btn-dark btn-sm">Dark</button>
+    <button class="btn btn-link">Link</button>
+    <ol class="list-unstyled">
+    <li>Moe</li>
+    <li>Curly</li>
+    <li>Larry</li>
+    </ol>
+    <div class="container">
+        <table class="table table-striped table-dark table-hover"></table>
+        <tr>
+            <th>Front End</th>
+            <div class="row">
+                <td class="col-1">HTML</td>
+                <td class="col-2">CSS</td>
+                <td class="col-3">JavaScript</td>
+            </tr>
+          <tr>
+            <th>Backend</th>
+                <tr class="row">
+                    <td class="col-1 bg-warning">Node.js</td>
+                    <td class="col-2">Express</td>
+                    <td class="col-3">MongoDB</td>
+            </tr>
+            <tr>
+                <div class="row">
+            <th>Web Dev Tools</th>
+            <td class="col-1 bg-pimrary">VS Code</td>
+                    <td class="col-2 bg-pimrary">Terminal</td>
+                    <td class="col-3 bg-pimrary">Git</td>
+            </tr>
+            </div>
+            <div class="container" margin-bottom>
+                <form>
+                    <div class="form-group">
+                        <label>The Last Word You Spoke/label>
+                        <input type="text" placeholder="The Last Word You Spoke">
+                     </form>
+            </div>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="first-row">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non provident laudantium aliquid corporis unde quisquam alias debitis eligendi doloremque vero, nostrum necessitatibus quae similique, veniam aperiam odio a. Excepturi, assumenda?</div>
+                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non provident laudantium aliquid corporis unde quisquam alias debitis eligendi doloremque vero, nostrum necessitatibus quae similique, veniam aperiam odio a. Excepturi, assumenda?</div>
+
+                        <div class="second-row"></div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non provident laudantium aliquid corporis unde quisquam alias debitis eligendi doloremque vero, nostrum necessitatibus quae similique, veniam aperiam odio a. Excepturi, assumenda?</div>
+                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non provident laudantium aliquid corporis unde quisquam alias debitis eligendi doloremque vero, nostrum necessitatibus quae similique, veniam aperiam odio a. Excepturi, assumenda?</div>
+                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non provident laudantium aliquid corporis unde quisquam alias debitis eligendi doloremque vero, nostrum necessitatibus quae similique, veniam aperiam odio a. Excepturi, assumenda?</div>
+            </div>
+            
+
+            </tr>
+        </tr>
+        <table>
+
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
